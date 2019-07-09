@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.view.UploadFileFragment">
+
+    <GridView
+    android:id="@+id/gv"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:numColumns="4"
+    android:padding="@dimen/activity_horizontal_margin" />
+
+    <include layout="@layout/layout_loadding" />
+
+</FrameLayout>
